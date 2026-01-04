@@ -224,11 +224,11 @@ def parse_itch(file_path, output_csv):
             for record in records:
                 writer.writerow(record)
         
-        print(f"✅ Wrote {len(records)} records to {output_csv}")
+        print(f" Wrote {len(records)} records to {output_csv}")
         print(f"   Message types found: {sorted(set(r.get('message_type') for r in records))}")
         return records
     else:
-        print("❌ No records found")
+        print(" No records found")
         return []
 
 
