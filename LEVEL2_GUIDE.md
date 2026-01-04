@@ -1,6 +1,6 @@
 # How to Build Level 2 Order Book Data from ITCH Messages
 
-## Overview: From Raw Messages → Level 2 Data
+## Overview: From Raw Messages -> Level 2 Data
 
 Level 2 data shows the order book at specific points in time:
 ```
@@ -327,7 +327,7 @@ def stream_level2(input_csv, output_file):
 
 ## Summary
 
-**CSV Files → Level 2:**
+**CSV Files -> Level 2:**
 
 1. Read `output_tv.csv` messages sequentially
 2. Maintain an in-memory order book by ticker
