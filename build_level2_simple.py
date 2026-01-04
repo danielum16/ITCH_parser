@@ -126,7 +126,7 @@ def build_level2_simple(input_csv, output_csv):
                     })
     
     # Write to CSV
-    print(f"\n✅ Processed {msg_count:,} messages")
+    print(f"\n Processed {msg_count:,} messages")
     print(f"   Order book has {len(orders):,} active orders")
     print(f"   Captured {len(snapshots_by_ticker)} tickers in snapshots")
     
@@ -173,7 +173,7 @@ def build_level2_simple(input_csv, output_csv):
                 writer.writerow(row_data)
                 snapshot_count += 1
         
-        print(f"\n✅ Wrote {snapshot_count:,} Level 2 snapshots to {output_csv}")
+        print(f"\n Wrote {snapshot_count:,} Level 2 snapshots to {output_csv}")
 
 if __name__ == '__main__':
     build_level2_simple(
