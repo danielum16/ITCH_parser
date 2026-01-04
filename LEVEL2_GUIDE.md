@@ -334,5 +334,3 @@ def stream_level2(input_csv, output_file):
 3. Update it with A/U/D/e messages
 4. At timestamps (or fixed intervals), aggregate orders by price level
 5. Output to CSV with bid/ask columns
-
-That's it! You now have Level 2 order book data ready for analysis.
