@@ -1,0 +1,6 @@
+*.csv
+__pycache__/
+*.pyc
+.DS_Store
+.archive/
+build_level2.py
