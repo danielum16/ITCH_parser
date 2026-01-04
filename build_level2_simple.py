@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple Level 2 Order Book Builder - Faster approach
+Bare-bons Level 2 Order Book Builder
 
 Instead of maintaining a full order book in memory, 
 just extract order and execute messages and output them directly.
